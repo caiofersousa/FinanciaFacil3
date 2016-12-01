@@ -222,7 +222,7 @@ function calcula(form) {
             var tempo = fim-inicial;
             var ind = (i+1);
             var base = Math.pow(ind,tempo);
-            var amortizacao = (amortiza1*base).toFixed(2);
+            var amortizacao = (amortiza1*base);
             form.resposta.value = amortizacao.toFixed(2);
         // alert("O valor da mensalidade é " + prest);
        }
